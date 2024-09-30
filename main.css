@@ -1,0 +1,32 @@
+:root {
+  --color-french-gray: hsla(230, 5%, 75%, 1);
+  --color-dim-gray: hsla(232, 7%, 39%, 1);
+  --color-onyx: hsla(205, 10%, 25%, 1);
+  --color-night: hsla(250, 21%, 5%, 1);
+  --color-dun: hsla(42, 35%, 76%, 1);
+  --color-sage: hsla(69, 32%, 70%, 1);
+  --color-viridian: hsla(147, 23%, 44%, 1);
+  --color-honolulu-blue: hsla(200, 100%, 37%, 1);
+  --color-space-cadet: hsla(231, 32%, 24%, 1);
+  --color-caramel: hsla(30, 51%, 54%, 1);
+
+  --color-gray-light: var(--color-french-gray);
+  --color-gray: var(--color-dim-gray);
+  --color-gray-dark: var(--color-onyx);
+  --color-black: var(--color-night);
+  --color-tan: var(--color-dun);
+  --color-tan-dark: var(--color-caramel);
+  --color-green-light: var(--color-sage);
+  --color-green: var(--color-viridian);
+  --color-blue: var(--color-honolulu-blue);
+  --color-blue-dark: var(--color-space-cadet);
+}
+
+body {
+  font-family: system-ui;
+  background-color: var(--color-tan);
+}
+h1 { color: var(--color-black); }
+p { color: var(--color-black); }
+a { color: var(--color-blue); }
+
