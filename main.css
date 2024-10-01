@@ -23,10 +23,61 @@
 }
 
 body {
-  font-family: system-ui;
-  background-color: var(--color-tan);
+  font-family: 'Recursive', monospace; 
+  background: rgb(191,162,132);
+  position: relative;
 }
-h1 { color: var(--color-black); }
-p { color: var(--color-black); }
-a { color: var(--color-blue); }
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    linear-gradient(
+      60deg, 
+      rgba(191,162,132,1) 5%, 
+      rgba(200,190,164,1) 52%, 
+      rgba(176,165,137,1) 90%)
+}
+
+main {
+  margin: 1rem;
+  padding: 1rem ;
+  max-width: 1000px;
+  border-radius: 0px 10px 10px 0px;
+  color: var(--color-black);
+  background: 
+    linear-gradient(
+      260deg,
+      var(--color-blue) 0%,
+      transparent 3%),
+    linear-gradient(
+      270deg,
+      var(--color-blue) 0%,
+      transparent 5%),
+    linear-gradient(
+      280deg,
+      var(--color-blue) 0%,
+      transparent 3%),
+    linear-gradient(
+      255deg,
+      var(--color-green) 5%,
+      transparent 20%),
+    linear-gradient(
+      270deg,
+      var(--color-green) 10%,
+      transparent 50%),
+    linear-gradient(
+      285deg,
+      var(--color-green) 5%,
+      var(--color-tan) 20%),
+    url(noise.svg);
+}
+
+a { 
+  font-weight: 600;
+  color: var(--color-blue); 
+}
 
