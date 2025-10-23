@@ -1,3 +1,3 @@
 # brianmcmillen.dev
 
-This is a the codebase for the brianmcmillen.dev website. 
+This is the codebase for the brianmcmillen.dev website. 
